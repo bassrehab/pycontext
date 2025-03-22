@@ -54,6 +54,9 @@ crashlytics-build.properties
 staticfiles
 .env
 
+pycontext.egg-info/
+pycontext.egg-info/*
+
 BRIDGE.md
 DEV_PROGRESS.md
 IMPL_PROGRESS.md
