@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="pycontext",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Subhadip Mitra",
+    author_email="contact@subhadipmitra.com",
     description="A framework for building autonomous multi-agent systems with standardized context management",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pycontext",
+    url="https://github.com/bassrehab/pycontext",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
