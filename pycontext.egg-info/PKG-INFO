@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: pycontext
+Version: 0.1.0
+Summary: A framework for building autonomous multi-agent systems with standardized context management
+Home-page: https://github.com/yourusername/pycontext
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: redis>=4.0.0
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: prometheus-client>=0.16.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.20.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: sphinx>=6.0.0; extra == "dev"
+Provides-Extra: openai
+Requires-Dist: openai>=1.0.0; extra == "openai"
+Provides-Extra: anthropic
+Requires-Dist: anthropic>=0.5.0; extra == "anthropic"
+Provides-Extra: huggingface
+Requires-Dist: transformers>=4.30.0; extra == "huggingface"
+Requires-Dist: torch>=2.0.0; extra == "huggingface"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# PyContext
+
+A comprehensive Python framework for building autonomous multi-agent systems with standardized context management.
+
+## Features
+
+- Model Context Protocol (MCP) implementation
+- Hierarchical memory systems
+- Agent-based architecture
+- Context optimization and management
+- Production-ready utilities for scaling and monitoring
+
+## Installation
+
+```bash
+pip install pycontext
+```
+
+## Quick Start
+
+```python
+from pycontext import ContextManager
+from pycontext.core.agents import BaseAgent
+
+# Your code here
+```
+
+## Documentation
+
+See the [documentation](docs/) for detailed information.
+
+## License
+
+MIT
