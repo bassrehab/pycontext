@@ -55,7 +55,8 @@ staticfiles
 .env
 
 pycontext.egg-info/
-pycontext.egg-info/*
+
+.idea/
 
 BRIDGE.md
 DEV_PROGRESS.md
